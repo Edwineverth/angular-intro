@@ -1,0 +1,23 @@
+<h1>Hero Component Works</h1>
+<h1> {{name}}</h1>
+
+<dl>
+  <dt> Nombre: </dt>
+  <dd> {{name}} </dd>
+  <dt> Edad: </dt>
+  <dd> {{old}} </dd>
+
+  <dt> Function: </dt>
+  <dd> {{getName()}} </dd>
+
+  <dt> Capitalized: </dt>
+  <dd> {{nameCapitalized}} </dd>
+</dl>
+
+<button (click)='changeName()'>
+  Change Hero
+</button>
+<button (click)='changeOld()'>
+  Change old
+</button>
+
